@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProductInfo = () => {
+const RecommendedProduct = () => {
 
     const product={
         name:"Quardro formaggi",
@@ -18,4 +18,4 @@ const ProductInfo = () => {
   )
 }
 
-export default ProductInfo
+export default RecommendedProduct
