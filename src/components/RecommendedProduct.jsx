@@ -2,18 +2,19 @@ import React from 'react'
 
 const RecommendedProduct = () => {
 
-    const product={
+    const recommendation={
         name:"Quardro formaggi",
-        price:"7.99€",
+        price:"7.99",
         availability:"In stock"
     }
 
   return (
     <main>
-        <h2>Product Info</h2>
-        <h5>Name: {product.name}</h5>
-        <h5>Price: $ {product.price}</h5>
-        <h5>Availability: {product.availability}</h5>
+        <h2>Menu of the Day</h2>
+        <h4>Name: {recommendation.name}</h4>
+        <h4>Price: {recommendation.price}€</h4>
+        <h4>Availability: {recommendation.availability}</h4>
+        <hr/>
     </main>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Header = () => {
-    const greeting="Hi!"
+    const greeting="Welcome to Fabrio's"
     const date=new Date()
   return (
     <header>
